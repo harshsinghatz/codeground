@@ -42,5 +42,9 @@
   },
   "ct3aMetadata": {
     "initVersion": "6.6.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/harshsinghatz/codeground.git",
+  "author": "Harsh Singh <51085015+hs9085298@users.noreply.github.com>",
+  "license": "MIT"
 }
