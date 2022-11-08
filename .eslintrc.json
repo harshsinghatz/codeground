@@ -8,6 +8,35 @@
   "rules": {
     "@typescript-eslint/consistent-type-imports": "warn",
     "semi": ["error", "always"],
-    "quotes": ["error", "double"]
+    "quotes": ["error", "double"],
+    "no-tabs": "off",
+		"no-multi-spaces": "warn",
+		"indent": [
+			"warn",
+			"tab",
+			{
+				"SwitchCase": 1
+			}
+		],
+		"arrow-parens": ["error", "as-needed"],
+		"react/jsx-indent": ["error", "tab"],
+		"react/jsx-indent-props": ["error", "tab"],
+		"no-underscore-dangle": "off",
+		"camelcase": "off",
+		"import/no-unresolved": [
+			2,
+			{
+				"ignore": ["^common-util", "css-util", "components", "helpers", "^store", "util"]
+			}
+		],
+		"react/no-array-index-key": "off",
+		"react/react-in-jsx-scope": "off",
+		"react/jsx-one-expression-per-line": "off",
+		"jsx-a11y/html-has-lang": "off",
+		"jsx-a11y/alt-text": "warn",
+		"jsx-a11y/mouse-events-have-key-events": "off",
+		"jsx-a11y/media-has-caption": "off",
+		"jsx-a11y/anchor-is-valid": "off",
+		"global-require": 0
   }
 }
